@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/sarcasticsamm/MOONLI
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/khamoshiya01")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/friendship_forever_chatting_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TCZ_GROUP")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TCZ_GROUP")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6ed33798ede6345ee15c1.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6fde74a9ff74903de47c8.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/5386bec573ea8779460f0.jpg",
+    "https://telegra.ph/file/6fde74a9ff74903de47c8.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/6ed33798ede6345ee15c1.jpg"
