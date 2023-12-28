@@ -21,12 +21,12 @@ OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Badnam143/MOONLIGHT.git")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Badnam143/MOONLIGHT")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/TCZ_GROUP")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/TCZ_GROUP")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dp_for_you")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+tHTkLg_SQ5E4OGRh")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,11 +76,11 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/6fde74a9ff74903de47c8.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/78e3e4a3abf0aa7896584.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://telegra.ph/file/6fde74a9ff74903de47c8.jpg",
+    "https://graph.org/file/78e3e4a3abf0aa7896584.jpg",
 )
 
 PLAYLIST_IMG_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
