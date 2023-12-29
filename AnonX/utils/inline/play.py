@@ -69,7 +69,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Cute_kamina_c"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
@@ -139,7 +139,7 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Cute_kamina_c"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
@@ -181,7 +181,7 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Cute_kamina_c"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
@@ -220,7 +220,7 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Cute_kamina_c"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
@@ -352,7 +352,7 @@ close_keyboard = InlineKeyboardMarkup(
                         text="✭ᴄʟᴏꜱᴇ✭", callback_data="close"
                     ),
                     InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Cute_kamina_c"
+                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/badnam_ji"
                     )
                 ]    
             ]
@@ -386,12 +386,12 @@ def queue_markup(_, videoid, chat_id):
                 text="✭ɢʀᴏᴜᴘ✭", url=config.SUPPORT_GROUP
             ),
             InlineKeyboardButton(
-                text="✭ᴄʜᴀɴɴᴇʟ✭", url=config.SUPPORT_CHANNEL
+                text="ᴄʜᴀɴɴᴇʟ", url=config.SUPPORT_CHANNEL
             )
         ],
         [
             InlineKeyboardButton(
-                text="✭ᴏᴡɴᴇʀ✭", url=f"https://t.me/Moon_here_1"
+                text="✭OWNER✭", url=f"https://t.me/badnam_ji"
             )
         ],
         [
