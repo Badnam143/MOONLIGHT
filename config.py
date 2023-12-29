@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Badnam143/MOONLIGHT"
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/dp_for_you")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+tHTkLg_SQ5E4OGRh")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/tcz_group")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/tcz_group")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
@@ -76,34 +76,34 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/78e3e4a3abf0aa7896584.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/81210c2ce55a16f8ab428.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/78e3e4a3abf0aa7896584.jpg",
+    "https://graph.org/file/81210c2ce55a16f8ab428.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
+GLOBAL_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
+STATS_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/13c4f2666508fe7034d3a.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-STREAM_IMG_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
+STREAM_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-YOUTUBE_IMG_URL = "https://telegra.ph/file/085ea02f0f4b809e2c3da.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
 
 def time_to_seconds(time):
