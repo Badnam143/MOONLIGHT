@@ -14,7 +14,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID"))
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ＮＯＯＲ乛")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "『 𝙏𝘾𝙕 ✘ 𝙈𝙐𝙎𝙄𝘾 』")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
 
@@ -76,14 +76,14 @@ clean = {}
 autoclean = []
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/81210c2ce55a16f8ab428.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg")
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "https://graph.org/file/81210c2ce55a16f8ab428.jpg",
+    "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg"
 
 GLOBAL_IMG_URL = "https://graph.org/file/81210c2ce55a16f8ab428.jpg"
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/6ed33798ede6345ee15c1.jpg"
+            START_IMG_URL = "https://telegra.ph/file/7033e3d61fb48e6a07c76.jpg"
